@@ -17,6 +17,7 @@
                 event.preventDefault();
                 this.contact_number.value = Math.random() * 100000 | 0;
                 emailjs.sendForm('service_5ituo0l', 'template_fu0h7fr', this); 
+                // how to solve input enter error
                 // document.querySelector('.Name').value = null;
                 // document.querySelector('.Email').value = null;
                 // document.querySelector('.Message').value = "Your message was sent well. Please check your email.";
@@ -54,16 +55,6 @@
                     <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">DC</span><br>Web Developer</h1>
                     <a href="#contact" class="button">Contact</a>
                 </div>
-
-                <!-- <div class="home__social"> -->
-                    <!-- <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a> -->
-                    <!-- <a href="https://github.com/apodictic3" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a> -->
-                <!-- </div> -->
-
-                <!-- <div class="home__img">    
-                    <img src="assets/img/profile.png" alt="">
-                </div> -->
             </section>
 
             <!--===== ABOUT =====-->
@@ -196,9 +187,6 @@
         <footer class="footer">
             <p class="footer__title">DC's Portfolio</p>
             <div class="footer__social">
-                <!-- <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a> -->
                 <a href="https://github.com/apodictic3" class="footer__icon" target="_blank"><i class='bx bxl-github' ></i></a>
             </div>
             <p>&#169; 2021 copyright all right reserved</p>
