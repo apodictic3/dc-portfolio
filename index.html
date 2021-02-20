@@ -17,10 +17,9 @@
                 event.preventDefault();
                 this.contact_number.value = Math.random() * 100000 | 0;
                 emailjs.sendForm('service_5ituo0l', 'template_fu0h7fr', this); 
-                // how to solve input enter error
-                // document.querySelector('.Name').value = null;
-                // document.querySelector('.Email').value = null;
-                // document.querySelector('.Message').value = "Your message was sent well. Please check your email.";
+                document.querySelector('.Name').value = null;
+                document.querySelector('.Email').value = null;
+                document.querySelector('.Message').value = "Your message was sent well. Please check your email.";
             });  
            } </script>
     </head>
